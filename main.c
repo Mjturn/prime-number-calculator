@@ -16,7 +16,9 @@ bool is_prime(int number) {
 }
 
 int main() {
-    int number = 5;
+    printf("Enter an integer greater than 1.\n");
+    int number;
+    scanf("%d", &number);
     
     if(is_prime(number) && number > 1) {
         printf("%d is a prime number.\n", number);
